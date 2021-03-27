@@ -1,0 +1,99 @@
+.searchContainer {
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 30px auto 120px auto !important;
+    padding: 0;
+}
+
+.searchHeader {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.searchHeader h2 {
+    font-size: 28px;
+}
+
+.inputsWrapper {
+    width: 74vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    -moz-box-shadow: 0 0 5px #4BADE1;
+    -webkit-box-shadow: 0 0 5px #4BADE1;
+    box-shadow: 0 0 5px #4BADE1;
+    margin: 0 auto;
+}
+
+.inputsWrapper input[type=text] {
+    width: 40%;
+    height: 50px;
+    border-radius: none !important;
+    border: 1px solid #CED4DA;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.inputsWrapper input[type=text]::placeholder {
+    color: rgb(196, 194, 194);
+    font-size: 16px;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    padding-left: 8px;
+}
+
+.inputsWrapper input[type=text]:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.inputsWrapper input[type=submit] {
+    width: 20%;
+    height: 50px;
+    background: #4BADE1;
+    border: 1px solid #4BADE1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    outline: none;
+    -moz-box-shadow: 0 0 5px #4BADE1;
+    -webkit-box-shadow: 0 0 5px #4BADE1;
+    box-shadow: 0 0 5px #4BADE1;
+}
+
+
+.inputsWrapper input[type='submit']:hover {
+    background: #3996c9;
+    border: 1px solid #3996c9;
+}
+
+
+@media (max-width: 768px) {
+    .inputsWrapper {
+        width: 90vw;
+        height: 42px;
+    }
+
+    .inputsWrapper input[type='text'] {
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .inputsWrapper input[type="submit"] {
+        height: 42px;
+        font-size: 14px;
+    }
+}

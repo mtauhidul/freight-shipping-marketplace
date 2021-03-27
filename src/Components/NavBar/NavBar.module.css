@@ -1,0 +1,49 @@
+.navBar {
+    padding: 1.5vw 3vw;
+    background: #ebecf0 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+
+.centerify {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .centerify {
+        font-size: 6vw;
+        position: absolute;
+        z-index: 3;
+        transform: translate(-4%, 60%);
+        background: #EBECF0;
+        width: 100vw;
+    }
+
+    .signInBtn {
+        font-size: 5vw;
+    }
+}
+
+.btnOutPrimary {
+    border-color: #4BADE1;
+    color: #4BADE1;
+    margin-top: -.4vw;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.btnOutPrimary:hover {
+    background: #4BADE1;
+    border-color: #4BADE1;
+
+}
+
+.btnOutPrimary:active:focus {
+    background: #4BADE1 !important;
+    border-color: #4BADE1 !important;
+}

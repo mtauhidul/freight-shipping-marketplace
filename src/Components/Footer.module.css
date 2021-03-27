@@ -1,0 +1,76 @@
+.footerContainer {
+    background: #cde8fc;
+    padding-top: 50px;
+}
+
+.footerWrapper {
+    margin: 0 auto !important;
+}
+
+.linksSection a {
+    color: #27363B;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    padding: 0;
+}
+
+.copyrightSection {
+    text-align: center !important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.copyrightSection p {
+    color: #27363B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    word-spacing: 2px;
+    font-weight: 600;
+    letter-spacing: .5px;
+
+}
+
+.comInfo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+    line-height: 26px;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+
+.socialWrapper {
+    margin: 20px auto;
+    height: 40px;
+    border-top: 1px dashed #4BADE1;
+    border-bottom: 1px dashed #4BADE1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.socialWrapper img {
+    width: 32px;
+    height: 32px !important;
+    margin: auto 7px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .linkCol {
+        margin-left: -38px;
+    }
+
+    .socialWrapper {
+        margin-left: 13px;
+    }
+}

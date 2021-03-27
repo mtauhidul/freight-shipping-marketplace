@@ -1,0 +1,41 @@
+.methodContainer {
+    margin: 3vw auto !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    position: relative;
+}
+
+.card {
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+
+.card h4 {
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+}
+
+@media (max-width: 768px) {
+    .methodContainer {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+        margin: 20px;
+    }
+}

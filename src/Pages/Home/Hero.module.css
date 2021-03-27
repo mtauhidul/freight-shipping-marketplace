@@ -1,0 +1,95 @@
+.heroContainer {
+    height: 87vh;
+    background: #ebecf0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.heroWrapper {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    text-transform: capitalize;
+}
+
+.heroWrapper img {
+    margin-top: 15px;
+}
+
+.heroLine {
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #4BADE1;
+
+
+}
+
+.heroText {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 280%;
+    color: #27363B;
+    margin: 0px 0px 20px 0px;
+}
+
+.heroText span {
+    color: #4BADE1;
+}
+
+@media (max-width: 768px) {
+    .heroWrapper {
+        padding-top: 25vw;
+    }
+}
+
+.btnWrapper {
+    width: 365px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.btnWrapper button {
+    width: 170px;
+    height: 46px;
+    font-size: 13px;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btnPrimary {
+    background: #4BADE1;
+    border-color: #4BADE1;
+}
+
+.btnPrimary:hover {
+    background: #3793c5;
+    border-color: #3793c5;
+}
+
+.btnOutPrimary {
+    border-color: #4BADE1;
+    color: #4BADE1;
+}
+
+.btnOutPrimary:hover {
+    background: #4BADE1;
+    border-color: #4BADE1;
+
+}
+
+.btnPrimary:active:focus,
+.btnOutPrimary:active:focus {
+    background: #4BADE1 !important;
+    border-color: #4BADE1 !important;
+}
