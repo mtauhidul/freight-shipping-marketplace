@@ -1,6 +1,10 @@
 .footerContainer {
     background: #cde8fc;
     padding-top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 .footerWrapper {
