@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 const Footer = () => (
@@ -20,95 +21,101 @@ const Footer = () => (
                 </Col>
                 <Col md={1} />
                 <Col md={2} className={styles.linkCol}>
-                    <ul>
-                        <li>
-                            <p>
-                                <strong>Company</strong>
-                            </p>
-                        </li>
-                        <li>
-                            <a href="/">About</a>
-                        </li>
-                        <li>
-                            <a href="/">Contact</a>
-                        </li>
-                        <li>
-                            <a href="/">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="/">Support</a>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Company</strong>
+                                </p>
+                            </li>
+                            <li>
+                                <Link to="/">About</Link>
+                            </li>
+                            <li>
+                                <Link to="/">Contact</Link>
+                            </li>
+                            <li>
+                                <Link to="/">FAQ</Link>
+                            </li>
+                            <li>
+                                <Link to="/">Support</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </Col>
                 <Col md={2} className={styles.linkCol}>
-                    <ul>
-                        <li>
-                            <p>
-                                <strong>Freight</strong>
-                            </p>
-                        </li>
-                        <li>
-                            <a href="/">Shipper</a>
-                        </li>
-                        <li>
-                            <a href="/">Carrier</a>
-                        </li>
-                        <li>
-                            <a href="/">Listing</a>
-                        </li>
-                        <li>
-                            <a href="/">Registration</a>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Freight</strong>
+                                </p>
+                            </li>
+                            <li>
+                                <Link to="/">Shipper</Link>
+                            </li>
+                            <li>
+                                <Link to="/">Carrier</Link>
+                            </li>
+                            <li>
+                                <Link to="/">Listing</Link>
+                            </li>
+                            <li>
+                                <Link to="/">Registration</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </Col>
                 <Col md={2} className={styles.linkCol}>
-                    <ul>
-                        <li>
-                            <p>
-                                <strong>Business</strong>
-                            </p>
-                        </li>
-                        <li>
-                            <a href="/">Policy</a>
-                        </li>
-                        <li>
-                            <a href="/">Terms</a>
-                        </li>
-                        <li>
-                            <a href="/">Payment</a>
-                        </li>
-                        <li>
-                            <a href="/">Subscription</a>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Business</strong>
+                                </p>
+                            </li>
+                            <li>
+                                <Link to="/">Policy</Link>
+                            </li>
+                            <li>
+                                <Link to="/">Terms</Link>
+                            </li>
+                            <li>
+                                <Link to="/">Payment</Link>
+                            </li>
+                            <li>
+                                <Link to="/">Subscription</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </Col>
             </Row>
             <Row>
                 <div className={styles.socialWrapper}>
-                    <a href="/">
+                    <Link to="/">
                         <img
                             src="https://img.icons8.com/ios-filled/48/000000/linkedin.png"
                             alt="in"
                         />
-                    </a>
-                    <a href="/">
+                    </Link>
+                    <Link to="/">
                         <img
                             src="https://img.icons8.com/ios-filled/48/000000/facebook--v1.png"
                             alt="fb"
                         />
-                    </a>
-                    <a href="/">
+                    </Link>
+                    <Link to="/">
                         <img
                             src="https://img.icons8.com/ios-filled/48/000000/email-open.png"
                             alt="email"
                         />
-                    </a>
-                    <a href="/">
+                    </Link>
+                    <Link to="/">
                         <img
                             src="https://img.icons8.com/ios-filled/48/000000/imessage.png"
                             alt="chat"
                         />
-                    </a>
+                    </Link>
                 </div>
             </Row>
         </Container>

@@ -69,7 +69,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .linkCol {
         margin-left: -38px;
     }

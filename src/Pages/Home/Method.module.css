@@ -27,7 +27,7 @@
     color: rgb(117, 117, 117);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .methodContainer {
         flex-direction: column;
     }

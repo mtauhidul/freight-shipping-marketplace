@@ -81,7 +81,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .inputsWrapper {
         width: 90vw;
         height: 42px;

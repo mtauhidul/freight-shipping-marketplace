@@ -35,7 +35,7 @@
     margin: 5px 0px 0px 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
     .mobileVersion {
         display: none;
     }
@@ -43,7 +43,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .featuresContainer {
         max-height: 100%;
     }

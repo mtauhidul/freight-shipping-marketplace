@@ -41,7 +41,7 @@
     color: #4BADE1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .heroWrapper {
         padding-top: 25vw;
     }

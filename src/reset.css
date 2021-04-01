@@ -159,7 +159,7 @@ a.nav-link:hover {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     a.nav-link {
         margin: 7px auto;
     }
@@ -170,7 +170,7 @@ a.nav-link:hover {
     z-index: 4 !important;
 }
 
-@media(max-width:768px) {
+@media(max-width:991px) {
     /* a.nav-link {
         padding: 6vh 0;
     } */
@@ -178,4 +178,9 @@ a.nav-link:hover {
 
 ul {
     list-style: none;
+}
+
+.PhoneInputInput:focus {
+    outline: none;
+    border: none;
 }

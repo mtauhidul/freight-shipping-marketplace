@@ -45,7 +45,7 @@
     background: #EBECF0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .carriersContainer {
         height: auto;
         padding-bottom: 50px;

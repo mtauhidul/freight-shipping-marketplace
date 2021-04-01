@@ -46,7 +46,7 @@
     background: #FFFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .shippersContainer {
         padding-top: 50px;
         height: auto;
